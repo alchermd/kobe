@@ -1,0 +1,16 @@
+{
+    "name": "alchermd/kobe",
+    "description": "Gather diagnostic data into a single webpage",
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ],
+        "psr-4": {
+            "Alchermd\\Kobe\\": "./src"
+        }
+    },
+    "require": {
+        "nesbot/carbon": "^2.29",
+        "symfony/var-dumper": "^4.4"
+    }
+}
